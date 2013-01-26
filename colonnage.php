@@ -11,7 +11,16 @@
 				  ?>
 				</div>
 		 
-		</div>
+			</div>
+			<div class="span4">
+		        <div class="hero-unit">
+				  <?
+					$a = new Area('Col1');
+					$a->display($c); 
+				  ?>
+				</div>
+			</div>
+		
 	</div>
 </div>
 
